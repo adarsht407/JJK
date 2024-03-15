@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/grey"
+    tools:context=".row"
+    android:orientation="horizontal">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="6dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:padding="3dp"
+        tools:srcCompat="@drawable/tumblr_9f0310af8f75b2a57c532d89a2c4e211_66cb21a4_1280"
+        android:contentDescription="null" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="50dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="jmxfhliahfisu" />
+
+
+
+</LinearLayout>
+
